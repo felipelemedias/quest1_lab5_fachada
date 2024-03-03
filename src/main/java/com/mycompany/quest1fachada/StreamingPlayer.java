@@ -14,6 +14,10 @@ public class StreamingPlayer {
         System.out.println("Ligando projetor..");
     }
     
+    public void Desliga(){
+        System.out.println("Desligando projetor..");
+    }
+    
     public void play(String filme){
         System.out.println("Reproduzindo filme: " + filme);
     }

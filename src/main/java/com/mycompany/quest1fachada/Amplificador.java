@@ -15,6 +15,10 @@ public class Amplificador {
     public void liga() {
         System.out.println("Ligando amplificador..");
     }
+    
+    public void Desliga() {
+        System.out.println("Desligando amplificador..");
+    }
 
     public void ajustaVolume(int nivel) {
         if (nivel >= 0 && nivel <= 100) { 

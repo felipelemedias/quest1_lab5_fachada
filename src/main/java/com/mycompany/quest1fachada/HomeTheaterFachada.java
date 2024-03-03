@@ -49,7 +49,13 @@ public class HomeTheaterFachada {
 
     public void fimDoFilme() {
         System.out.println("Desligando meu kit home theater...");
-
+        pipoqueira.Desliga();
+        luzes.liga();
+        telao.sobe();
+        projetor.desliga();
+        amp.ajustaVolume(0);
+        amp.Desliga();
+        player.Desliga();
     }
 
 }

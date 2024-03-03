@@ -14,6 +14,10 @@ public class MaquinaPipoca {
         System.out.println("Ligando maquina de pipoca..");
     }
     
+    public void Desliga(){
+        System.out.println("Desligando maquina de pipoca..");
+    }
+    
     public void arrebentaPipoca(){
         System.out.println("Desligando maquina de pipoca..");
     }
